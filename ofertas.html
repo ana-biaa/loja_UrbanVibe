@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loja Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fcf5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #b00020;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 3em;
+      line-height: 1.2;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background-color: #d32f2f;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #ffe6e6;
+    }
+
+    .banner {
+      background: url('https://via.placeholder.com/1200x400/fddede/333') no-repeat center/cover;
+      height: 400px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .produto {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .produto:hover {
+      transform: translateY(-5px);
+    }
+
+    .produto img {
+      max-width: 50%;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      margin: 12px 0;
+      font-size: 1.2em;
+    }
+
+    .produto p {
+      color: #e63946;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .produto a {
+      color: #333;
+      text-decoration: none;
+      display: block;
+    }
+
+    footer {
+      background-color: #b00020;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .produtos {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <b>UrbanVibe</b>
+  </header>
+
+  <nav>
+    <a href="home.html">Início</a>
+    <a href="masculino.html">Masculino</a>
+    <a href="feminino.html">Feminino</a>
+    <a href="ofertas.html">Ofertas</a>
+  </nav>
+  <section class="produtos">
+    <div class="produto">
+      <a href="roupaM1.html">
+      <img src="imagens/roupaM1.jpg">
+      <h3>Camisa Oversized Masculina Estilo Urbano</h3>
+      <p>R$ 49,99</p>
+      </a>
+    </div>
+    <div class="produto">
+      <a href="roupaF1.html">
+      <img src="imagens/roupaF1.jpg">
+      <h3>Calça Jeans Feminina Wide Leg Tecido grafite</h3>
+      <p>R$ 79,99</p>
+      </a>
+    </div>
+    <div class="produto">
+      <a href="roupaM3.html">
+      <img src="imagens/roupaM3.jpg">
+      <h3>Camiseta Max Verstappen Blueprint</h3>
+      <p>R$ 59,99</p>
+      </a>
+    </div>
+    <div class="produto">
+      <a href="roupaF3.html">
+      <img src="imagens/roupaF3.jpg">
+      <h3>Kit 3 Bodys Feminino Costas Fechadas</h3>
+      <p>R$ 189,99</p>
+      </a>
+    </div>
+    <div class="produto">
+      <a href="roupaM5.html">
+      <img src="imagens/roupaM5.jpg">
+      <h3>Camiseta Gabriel Bortoleto F1</h3>
+      <p>R$ 59,99</p>
+      </a>
+    </div>
+    <div class="produto">
+      <a href="roupaF5.html">
+      <img src="imagens/roupaF5.jpg">
+      <h3>Vestido Boho Feminino Estampa de Árvore de Banana</h3>
+      <p>R$ 104,99</p>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
