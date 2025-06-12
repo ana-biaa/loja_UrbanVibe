@@ -126,7 +126,6 @@
   </nav>
   <section class="produto-container">
     <img class="produto-imagem" src="imagens/roupaF2.jpg">
-
     <div class="produto-info">
       <h1>Casaco Tricot Básico</h1>
   <p class="preco">R$ 69,99</p>
@@ -154,7 +153,6 @@
     <option value="Rosa Fúcsia">Rosa Fúcsia</option>
     <option value="Preto">Preto</option>
   </select>
-      
       <br>
       <br>
       <button onclick="comprar()">Comprar agora</button>
@@ -167,17 +165,13 @@
       const preco = 69.99;
       const tamanho = document.getElementById('tamanho').value;
       const cor = document.getElementById('cor').value;
-
-      // Salva no sessionStorage
       sessionStorage.setItem('produto', nome);
       sessionStorage.setItem('preco', preco);
       sessionStorage.setItem('tamanho', tamanho);
       sessionStorage.setItem('cor', cor);
-
-      // Redireciona para a página de pagamento
+      
       window.location.href = 'pagamento.html';
     }
   </script>
-
 </body>
 </html>

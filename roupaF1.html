@@ -47,41 +47,34 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-
     .produto-imagem {
       max-width: 400px;
       width: 100%;
       height: auto;
       object-fit: contain;
     }
-
     .produto-info {
       max-width: 500px;
     }
-
     .produto-info h1 {
       font-size: 2rem;
       margin-bottom: 0.5rem;
     }
-
     .produto-info p.preco {
       font-size: 1.5rem;
       color: #b00020;
       margin-bottom: 1rem;
     }
-
     .produto-info ul {
       list-style: disc;
       margin-left: 20px;
       margin-bottom: 1.5rem;
     }
-
     .produto-info .descricao {
       font-size: 1rem;
       line-height: 1.6;
       margin-bottom: 2rem;
     }
-
     .produto-info button {
       padding: 0.8rem 1.5rem;
       background-color: #b00020;
@@ -92,7 +85,6 @@
       cursor: pointer;
       transition: background-color 0.3s;
     }
-
     .produto-info button:hover {
       background-color: #b00020;
     }
@@ -122,7 +114,6 @@
       border-color: #b00020;
       box-shadow: 0 0 0 3px rgba(176, 0, 32, 0.2);
     }
-
   </style>
 </head>
 <body>
@@ -137,17 +128,14 @@
   </nav>
   <section class="produto-container">
     <img class="produto-imagem" src="imagens/roupaF1.jpg">
-
     <div class="produto-info">
       <h1>Calça Jeans Feminina Wide Leg</h1>
   <p class="preco">R$ 79,99</p>
-
   <ul>
     <li>Tecido: Jeans com elastano</li>
     <li>Tamanhos disponíveis: 36, 38, 40, 42, 44</li>
     <li>Cores: Grafite, Azul Claro</li>
   </ul>
-
   <p class="descricao">
     A calça wide leg traz modernidade ao visual feminino 
     com um corte reto e sofisticado. Perfeita para looks 
@@ -181,17 +169,13 @@
       const preco = 79.99;
       const tamanho = document.getElementById('tamanho').value;
       const cor = document.getElementById('cor').value;
-
-      // Salva no sessionStorage
       sessionStorage.setItem('produto', nome);
       sessionStorage.setItem('preco', preco);
       sessionStorage.setItem('tamanho', tamanho);
       sessionStorage.setItem('cor', cor);
 
-      // Redireciona para a página de pagamento
       window.location.href = 'pagamento.html';
     }
   </script>
-
 </body>
 </html>

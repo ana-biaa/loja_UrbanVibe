@@ -13,7 +13,6 @@
       margin: 0;
       padding: 0;
     }
-
     header {
       background-color: #b00020;
       color: #fff;
@@ -21,7 +20,6 @@
       text-align: center;
       font-size: 3em;
     }
-
     nav {
       display: flex;
       justify-content: center;
@@ -29,17 +27,14 @@
       background-color: #d32f2f;
       padding: 12px 0;
     }
-
     nav a {
       color: #fff;
       text-decoration: none;
       font-weight: 600;
     }
-
     nav a:hover {
       color: #ffe6e6;
     }
-
     .container {
       max-width: 900px;
       margin: 50px auto;
@@ -48,18 +43,15 @@
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
-
     .container h2 {
       text-align: center;
       margin-bottom: 20px;
       color: #b00020;
     }
-
     #detalhes-produto p {
       font-size: 1.1rem;
       margin-bottom: 10px;
     }
-
     form input {
       width: 100%;
       padding: 12px;
@@ -68,7 +60,6 @@
       border: 1px solid #ccc;
       font-size: 1rem;
     }
-
     button {
       width: 100%;
       padding: 12px;
@@ -82,118 +73,108 @@
       transition: background-color 0.3s;
       margin-top: 15px;
     }
-
     button:hover {
       background-color: #9a001c;
     }
     .mensagem-sucesso {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #ffe6e6; 
-  color: #b00020; 
-  border: 2px solid #ffc6c6;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-align: center;
-  animation: fadeIn 0.6s ease-in-out;
-}
-.pagamento-opcao {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #ffe6e6; 
+      color: #b00020; 
+      border: 2px solid #ffc6c6;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-align: center;
+      animation: fadeIn 0.6s ease-in-out;
+    }
+    .pagamento-opcao {
       display: none;
       margin-top: 15px;
     }
     .botoes-pagamento {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
-}
-
-.botao-pagamento {
-  padding: 12px 20px;
-  background-color: #fff;
-  color: #b00020;
-  border: 2px solid #b00020;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.botao-pagamento:hover,
-.botao-pagamento.selecionado {
-  background-color: #b00020;
-  color: #fff;
-}
-.campo-tamanho {
-  margin: 20px 0;
-  font-size: 1rem;
-}
-
-.campo-tamanho label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #b00020;
-}
-
-.campo-tamanho select {
-  width: 100%;
-  padding: 12px;
-  border: 2px solid #d32f2f;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  color: #333;
-  background-color: #fff;
-  transition: border-color 0.3s ease;
-}
-
-.campo-tamanho select:focus {
-  outline: none;
-  border-color: #b00020;
-  box-shadow: 0 0 0 3px rgba(176, 0, 32, 0.2);
-}
-.mensagem-sucesso {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: #ffe6e6;
-  color: #b00020;
-  border: 2px solid #ffc6c6;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.2rem;
-  text-align: center;
-  animation: fadeIn 0.6s ease-in-out;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .botao-pagamento {
+      padding: 12px 20px;
+      background-color: #fff;
+      color: #b00020;
+      border: 2px solid #b00020;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .botao-pagamento:hover,
+    .botao-pagamento.selecionado {
+      background-color: #b00020;
+      color: #fff;
+    }
+    .campo-tamanho {
+      margin: 20px 0;
+      font-size: 1rem;
+    }
+    .campo-tamanho label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #b00020;
+    }
+    .campo-tamanho select {
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #d32f2f;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      color: #333;
+      background-color: #fff;
+      transition: border-color 0.3s ease;
+    }
+    .campo-tamanho select:focus {
+      outline: none;
+      border-color: #b00020;
+      box-shadow: 0 0 0 3px rgba(176, 0, 32, 0.2);
+    }
+    .mensagem-sucesso {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #ffe6e6;
+      color: #b00020;
+      border: 2px solid #ffc6c6;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-align: center;
+      animation: fadeIn 0.6s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <header>
     <b>UrbanVibe</b>
   </header>
-
   <nav>
     <a href="home.html">Início</a>
     <a href="masculino.html">Masculino</a>
     <a href="feminino.html">Feminino</a>
     <a href="ofertas.html">Ofertas</a>
   </nav>
-
   <div class="container">
     <h2>Finalizar Pagamento</h2>
-
     <div id="detalhes-produto">
       <p><strong>Produto:</strong> <span id="produto"></span></p>
       <p><strong>Tamanho:</strong> <span id="tamanho"></span></p>
       <p><strong>Preço:</strong> R$ <span id="preco"></span></p>
       <p><strong>Cor:</strong>  <span id="cor"></span></p>
     </div>
-
     <div class="campo-tamanho">
   <label for="metodo-pagamento">Escolha a forma de pagamento:</label>
   <select id="metodo-pagamento" onchange="mostrarFormulario()" required>
@@ -204,10 +185,8 @@
     <option value="boleto">Boleto</option>
   </select>
 </div>
-
-
-
   <!-- Formulários específicos para cada método -->
+   <!--Crédito-->
   <div id="credito" class="pagamento-opcao">
     <h3>Pagamento com Cartão de Crédito</h3>
     <input type="text" placeholder="Nome do titular do cartão">
@@ -218,7 +197,7 @@
     <input type="text" placeholder="Endereço de cobrança">
     <button>Confirmar pagamento</button>
   </div>
-
+  <!--Débito-->
   <div id="debito" class="pagamento-opcao">
     <h3>Pagamento com Cartão de Débito</h3>
     <input type="text" placeholder="Nome do titular do cartão"> 
@@ -229,14 +208,14 @@
     <input type="text" placeholder="Endereço de cobrança">
     <button>Confirmar pagamento</button>
   </div>
-
+  <!--Pix-->
   <div id="pix" class="pagamento-opcao">
     <h3>Pagamento com Pix</h3>
     <p><strong>Escaneie o QR Code abaixo:</strong></p>
     <img src="imagens/pix.jpg">
     <button>Confirmar pagamento</button>
   </div>
-
+  <!--Boleto-->
   <div id="boleto" class="pagamento-opcao">
     <h3>Pagamento com Boleto</h3>
     <p>Clique para gerar seu boleto:</p>
@@ -255,20 +234,15 @@
     document.getElementById("tamanho").innerText = sessionStorage.getItem("tamanho");
     document.getElementById("preco").innerText = parseFloat(sessionStorage.getItem("preco")).toFixed(2);
     document.getElementById("cor").innerText = sessionStorage.getItem("cor");
-
-    // Associa a função ao select
     const selectPagamento = document.getElementById("metodo-pagamento");
     selectPagamento.addEventListener("change", mostrarFormulario);
-
     function mostrarFormulario() {
       const metodo = selectPagamento.value;
       const opcoes = document.getElementsByClassName("pagamento-opcao");
-
       // Esconde todos os formulários
       for (let i = 0; i < opcoes.length; i++) {
         opcoes[i].style.display = "none";
       }
-
       // Mostra o formulário selecionado
       if (metodo) {
         const elemento = document.getElementById(metodo);
@@ -279,7 +253,6 @@
     }
   });
   const botoesConfirmar = document.querySelectorAll(".pagamento-opcao button");
-
 botoesConfirmar.forEach(botao => {
   if (botao.innerText.toLowerCase().includes("confirmar")) {
     botao.addEventListener("click", function () {
@@ -287,7 +260,6 @@ botoesConfirmar.forEach(botao => {
       document.querySelectorAll(".pagamento-opcao").forEach(div => {
         div.style.display = "none";
       });
-
       // Exibe a mensagem de sucesso
       const msg = document.getElementById("mensagem-sucesso");
       msg.style.display = "block";

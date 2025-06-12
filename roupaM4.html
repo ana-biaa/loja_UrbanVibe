@@ -28,13 +28,11 @@
       background-color: #d32f2f;
       padding: 12px 0;
     }
-
     nav a {
       color: #fff;
       text-decoration: none;
       font-weight: 600;
     }
-
     nav a:hover {
       color: #ffe6e6;
     }
@@ -47,41 +45,34 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-
     .produto-imagem {
       max-width: 400px;
       width: 100%;
       height: auto;
       object-fit: contain;
     }
-
     .produto-info {
       max-width: 500px;
     }
-
     .produto-info h1 {
       font-size: 2rem;
       margin-bottom: 0.5rem;
     }
-
     .produto-info p.preco {
       font-size: 1.5rem;
       color: #b00020;
       margin-bottom: 1rem;
     }
-
     .produto-info ul {
       list-style: disc;
       margin-left: 20px;
       margin-bottom: 1.5rem;
     }
-
     .produto-info .descricao {
       font-size: 1rem;
       line-height: 1.6;
       margin-bottom: 2rem;
     }
-
     .produto-info button {
       padding: 0.8rem 1.5rem;
       background-color: #b00020;
@@ -92,7 +83,6 @@
       cursor: pointer;
       transition: background-color 0.3s;
     }
-
     .produto-info button:hover {
       background-color: #b00020;
     }
@@ -136,7 +126,6 @@
   </nav>
   <section class="produto-container">
     <img class="produto-imagem" src="imagens/roupaM4.jpg">
-
     <div class="produto-info">
       <h1>Jaqueta com Capuz e Zíper Impermeável</h1>
   <p class="preco">R$ 199,99</p>
@@ -176,17 +165,13 @@
       const preco = 199.99;
       const tamanho = document.getElementById('tamanho').value;
       const cor = document.getElementById('cor').value;
-
-      // Salva no sessionStorage
       sessionStorage.setItem('produto', nome);
       sessionStorage.setItem('preco', preco);
       sessionStorage.setItem('tamanho', tamanho);
       sessionStorage.setItem('cor', cor);
 
-      // Redireciona para a página de pagamento
       window.location.href = 'pagamento.html';
     }
   </script>
-
 </body>
 </html>
